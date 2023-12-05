@@ -13,14 +13,12 @@
 #Ejemplos de Entrada    25 100 5.50
 #Ejemplos de Salida     NUMBER = 25     SALARY = U$ 550.00
 
-numero_de_empleado = float (input())
-horas_trabajadas = float (input())
+numero_de_empleado = int(input())
+horas_trabajadas = int(input())
 monto_por_hora = float (input())
 
 SALARY = (horas_trabajadas * monto_por_hora)
 
-SALARY = format(SALARY, '.3f')
+SALARY = format(SALARY, '.2f')
 
-print(numero_de_empleado[], 'SALARY = ' + str(SALARY))
-
-print(diccionario_1['edad3'])
+print(f"NUMBER = {numero_de_empleado}\nSALARY = U$ " + str(SALARY))
