@@ -21,4 +21,4 @@ SALARY = (horas_trabajadas * monto_por_hora)
 
 SALARY = format(SALARY, '.2f')
 
-print(f"NUMBER = {numero_de_empleado}\nSALARY = U$ " + str(SALARY))
+print(f"NUMBER = {numero_de_empleado}\nSALARY = U$ {SALARY}")

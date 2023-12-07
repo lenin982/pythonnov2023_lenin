@@ -28,6 +28,7 @@ f = float(VALOR_2[2])
 prod_valor_2 = (e * f)
 
 suma_valores = (prod_valor_1 + prod_valor_2)
-suma_valores = format(suma_valores, ':2f')
 
-print('VALOR A PAGAR: R$ '+ str (suma_valores))
+#suma_valores = format(suma_valores, ':2f')
+
+print('VALOR A PAGAR: R$ {suma_valores:2f}")
