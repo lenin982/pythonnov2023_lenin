@@ -18,4 +18,6 @@ fraccion = (4/3.0)
 
 Vol = (fraccion * pi * R**3)
 
-DIFERENCA= format(DIFERENCA, '.0f')
+Vol= format(Vol, '.0f')
+
+print (Vol)

@@ -11,3 +11,15 @@
 # Ejemplo de entrada	10  85
 # Ejemplo de salida     70.833
 
+tiempo = int(input())
+velocidad_media = int(input())
+
+rendimiento = 12 #Km/L
+
+x = (tiempo / rendimiento)
+
+y = x * velocidad_media
+
+y = format (y, ".3f")
+
+print(y)
