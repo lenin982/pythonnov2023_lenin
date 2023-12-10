@@ -18,6 +18,4 @@ fraccion = (4/3.0)
 
 Vol = (fraccion * pi * R**3)
 
-Vol = format(Vol,'.3f')
-
-print(f"VOLUME = {Vol}")
+DIFERENCA= format(DIFERENCA, '.0f')
