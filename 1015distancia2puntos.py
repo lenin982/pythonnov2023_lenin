@@ -21,9 +21,8 @@ coordenada_y = input() .split()
 y1 = float(coordenada_y[0])
 y2 = float(coordenada_y[1])
 
-
 distancia = (((x2 - x1)**2) + ((y2 - y1)**2))
 
 distancia_raiz = format((distancia)**0.5, '4f')
 
-print=(f"distancia_raiz")
+print=(distancia_raiz)

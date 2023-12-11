@@ -14,5 +14,6 @@ c = int(formula[2])
 
 
 MAIOR_AB = max(a, b, c)
+
 print(str(MAIOR_AB) + " eh o maior")
 
